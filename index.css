@@ -1,0 +1,209 @@
+/* Navigation Bar styles */
+#laMountains{
+    background-image: url(./images/Image.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.navigation-bar {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.extras{
+    justify-content: end;
+
+}
+.nav-link{
+    color: white!important;
+}
+.navigation-links ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: white ;
+}
+
+.navigation-links ul li {
+    margin: 0 22px;
+    border-bottom: 1px solid white ;
+    font-size: 12px;
+}
+
+/* Middle Nav Section */
+#Nav-section .navigation-links ul li {
+    margin: 0 22px;
+    border-bottom: 1px solid #414f6b;
+    font-size: 12px;
+    color: #414f6b !important;
+    margin: 30px;
+}
+.textEdit{
+    display: inline-flex;
+}
+#Nav-section h2{
+    color:  #414f6b;
+    font-family: 'Bebas Neue', cursive;
+}
+#Nav-section h2>span{
+    color: black;
+    display: flex;
+}
+
+/* History Section */
+#History-section{
+    background-image: url('./images/peak.png');
+    background-size: cover;
+    height: 140vh;
+    position: relative;
+    background-repeat: no-repeat;
+   
+}
+.historyMain::before{
+    content: '01.';
+    color: #697995;
+    font-size: 180px;
+}
+.textHistory{
+    margin: 0 320px;
+}
+.historyMain{
+  
+    font-family: 'Oswald', sans-serif;
+}
+.historyMain > span{
+    position: absolute;
+    left: 496px;
+    top: 124px;
+    color: #414f6b;
+    font-size: 33.6px;
+}
+.historyMain p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    padding-left: 128px;
+}
+.baseLayout{
+    background-color: #3c4961d1;
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 33px 0;
+}
+
+.carousel-indicators button{
+    border-radius: 50%;
+    width: 12px !important;
+    height: 12px !important;
+}
+/* Climb Section */
+#climb-section{
+    margin: 0 163px 0 320px;
+    position: relative;
+    
+}
+
+.climbMain{
+    font-family: 'Oswald', sans-serif;
+
+}
+.climb-textEdit{
+    display: flex;
+    align-items: center;
+}
+.climb-textEdit > p{
+   
+    padding-left: 95px;
+}
+.climbMain> span{
+    position: absolute;
+    left: 199px;
+    top: 124px;
+    color: #414f6b;
+    font-size: 33.6px;
+}
+.climbMain::before{
+    content: '02.';
+    color: #697995;
+    font-size: 180px;
+
+}
+/* Mountain Section */
+#mountainSection{
+    background-image: url('./images/photo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.mountainClassify{
+    background-color: #414f6b;
+    font-family: 'Oswald', sans-serif;
+    font-size: 26px;
+  
+}
+
+.mountainClassify ul{
+    display: flex;
+    list-style-type: none;
+    margin-left: 307px;
+    
+}
+.mountainClassify ul li{
+    padding: 0 20px;
+}
+
+.mountainClassify  .oneList{ 
+    background-color: #697995; 
+    color: #414f6b;
+    border-bottom: 1px solid #414f6b;
+   
+
+}
+.mountainClassify .twoList{ 
+    color: #697995; 
+    background-color: #414f6b;
+  
+}
+.mountainSchedule h3{
+    font-size: 32px;
+    color: #414f6b;
+}
+.mountainSchedule {
+    background-color: #fdfeff8c;
+    position: absolute;
+    top: 151px;
+    left: 353px;
+    padding: 37px;
+}
+
+.overlay{
+    display: flex;
+    position: absolute;
+    background-color: #414f6bd4;
+    z-index: 18;
+    cursor: pointer;
+    height: 70px !important;
+    width: 100%;
+}
+.editFooter{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 8px 0;
+}
+.editFooter h2{
+    display: grid;
+    font-size: 20px;
+}
+small{
+    font-size: 10px;
+    padding-top: 20px;
+}
